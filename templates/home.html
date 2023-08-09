@@ -1,0 +1,12 @@
+{% extends '_base.html' %}
+{% load static %}
+
+{% block title %} Home {% endblock %}
+{% block main %} 
+<h1>Home</h1>
+<h2>This is a Django + Vue.js WebApp. The purpose is to show the connection between Django as a Python back-end framework and Vue.js as a front-end JS framework.</h2>
+<div style="text-align:center">
+    <img src="{% static 'img/django_vue.PNG' %}" alt="Django_Vue" width="800" height="300">
+</div>
+
+{% endblock %}
